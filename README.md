@@ -4,11 +4,11 @@
 
 - **Crear un entorno en anaconda**:
 
-    - \$ conda create -n "nombre_del_entorno" python="python_version"
+    - \$ conda create -n <nombre_del_entorno> python=<python_version>
     
 - **Activar un entorno en anaconda**:
 
-    - \$ conda activate "nombre_del_entorno"
+    - \$ conda activate <nombre_del_entorno>
 
 - **Desactivar un entorno en anaconda**:
 
@@ -16,11 +16,11 @@
     
 - **Instalar un paquete o librería en anaconda** (debemos tener el entorno activado)
 
-    - ("nombre_del_entorno") \$ conda install "nombre_del_paquete"
+    - ("nombre_del_entorno") \$ conda install <nombre_del_paquete>
     
 - **Activar un entorno de anaconda para usarlo dentro de un jupyter notebook** (debemos tener el entorno activado y ipykernel instalado)
 
-    - ("nombre_del_entorno") \$ python -m ipykernel install --user --name "nombre_del_entorno" --display-name "Nombre en Jupyter"
+    - ("nombre_del_entorno") \$ python -m ipykernel install --user --name <nombre_del_entorno> --display-name "Nombre en Jupyter"
     
 - **Lanzar un jupyter notebook** (debemos tener el entorno activado y el paquete jupyter notebook instalado dentro)
 
